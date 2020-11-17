@@ -26,7 +26,7 @@ font-size:1.5rem;
 }
 
 p {
-color: white;
+color: black;
 }
 
 .container-fluid {
@@ -35,8 +35,10 @@ color: white;
 .iphone-mockup {
   transform: rotate(20deg);
   width:60%;
-  position: absolute;
+  height: auto;
+
   right: 30%;
+
 
   }
 
@@ -69,7 +71,7 @@ color: white;
 #features {
 padding: 15% 15%;
 background-color: #fff;
-position: relative;
+
 
 }
 .features-box {
