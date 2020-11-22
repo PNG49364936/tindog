@@ -1,34 +1,29 @@
 
 body {
 font-family: 'Montserrat', sans-serif;
+text-align: center;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-}
 
-h1 {
+/*fonts*/
+h1, h2, H3, H4, H5, H6 {
 font-family: 'Montserrat', sans-serif;
-line-height: 1.5;
-font-size: 3.5rem;
 }
 
-h2 {
-font-family: 'Montserrat', sans-serif;
-font-size: 3rem;
-line-height: 1.5;
-}
-
-h3 {
-font-family: 'Montserrat', sans-serif;
-font-size:1.5rem;
-}
 
 p {
 color: black;
 }
 
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
 .container-fluid {
   padding: 3% 15% 7%
 }
@@ -69,6 +64,16 @@ color: black;
 .download-button {
   margin: 5% 3% 5% 0;
 }
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+#title.container-fluid {
+  padding: 3% 15% 7%
+  }
+
+
 
 /*features sections*/
 #features {
@@ -79,13 +84,11 @@ position: relative;
 
 }
 .features-box {
-text-align: center;
+
 padding: 5%
 }
 
-#testimonials{
-  padding: 7% 15%
-}
+
 
 .icon {
   margin-bottom: 1rem;
@@ -96,11 +99,15 @@ padding: 5%
   color: #ff4c68;
 }
 
+.features-tittle{
+  font-size: 1.5rem;
+}
 /*testimonial  section*/
 #testimonials {
-  text-align: center;
+
   background-color: #ef8172;
   color: white;
+
 }
 
 .testimonial-image {
@@ -110,12 +117,17 @@ padding: 5%
 
 }
 .carousel-item {
-padding: 7% 15%;
 }
+
+.testimonial-text{
+font-size: 3rem;
+line-height: 1.5;
+
+  }
 /*press section*/
 #press {
 background-color: #ef8172;
-text-align: center;
+
 padding-bottom: 3%;
 }
 .press-logo {
@@ -126,6 +138,15 @@ padding-bottom: 3%;
   .role {
       width :20%;
   }
+/*prices*/
+#pricing {
+  padding: 100px;
+
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
 
   .colora{
     background-color: #f0ad4e;
@@ -149,10 +170,8 @@ padding-bottom: 3%;
     }
     }
 
-  #cta {
-    text-align: center;
-    padding: 7% 15%;
-
+  #cta
+{
     background-color: #ff4c68;
     color: white;
   }
@@ -163,9 +182,27 @@ padding-bottom: 3%;
 }
 
 #footer {
-  padding: 7% 15%;
-  text-align: center;
+padding: 7% 15%;
+
   }
 .social-icons {
   margin: 20px 10px;
   }
+  .social-icons:hover{
+color: blue;
+    }
+.press-logo:hover{
+background-color: #b7fbff;
+}
+ .dog{
+ transform: rotate(20deg);
+ border-radius: 50%;
+ margin: 40px ;
+}
+#photo{
+  background-color: blue;
+}
+#mail{
+
+
+}
