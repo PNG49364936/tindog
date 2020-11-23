@@ -204,5 +204,17 @@ background-color: #b7fbff;
 }
 #mail{
 
-
 }
+.workinprogress{
+  text-align: center;
+  font-size: 5rem;
+  padding: 10% 15%;
+  background-color: yellow;
+}
+.fas{
+  width:70%
+top: 40px;
+  }
+  .labrador {
+  font-family: 'Montserrat', sans-serif;
+  }
